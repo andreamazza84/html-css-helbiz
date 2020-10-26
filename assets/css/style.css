@@ -18,10 +18,11 @@ a{
 }
 /* NAVBAR */
 .navbar .logo{
-  font-size: 18px;
+  height: 10vh;
+  font-size: 16px;
   line-height: 18px;
   text-transform: uppercase;
-  letter-spacing: 0.3rem;
+  letter-spacing: 0.4rem;
   padding: 1rem 0;
 }
 .navbar .menu{
@@ -48,4 +49,53 @@ a{
 .navbar .menu .lang:after{
   padding-left: 1rem;
   content:"|";
+}
+/* /navbar */
+/* /HERO CONTAINER */
+.hero-img{
+  height: 90vh;
+  background-image: url(../img/hero-img.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  color: white;
+}
+.hero-img .overlay{
+  background-color: rgba(30,0,0,0.4);
+  height: 100%;
+  width: 100%;
+}
+.hero-img .hero-txt{
+  width: 100%;
+  position: absolute;
+  top: 50%;
+  transform: translate(0, -50%);
+  text-align: center;
+}
+.hero-img .hero-txt h1{
+  font-size: 45px;
+  font-weight: 600;
+  letter-spacing: 0;
+  margin-bottom: 1.5rem;
+}
+.hero-img .hero-txt p{
+  margin-bottom: 1.5rem;
+}
+#apple-img{
+  width: 120px;
+  background-image: url(../img/applestore.png);
+  margin-right: 20px;
+}
+#google-img{
+  width: 150px;
+  background-image: url(../img/googlestore.jpg);
+}
+#apple-img, #google-img{
+  height: 45px;
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  border-radius: 5px;
+  border: 2px solid black;
 }
