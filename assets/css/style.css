@@ -1,0 +1,51 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  width: 1504px;
+	font-family: Open Sans,Segoe UI,Tahoma,sans-serif;
+}
+header{
+  height: 100vh;
+}
+section{
+  width: 100%;
+}
+a{
+  text-decoration: none;
+}
+/* NAVBAR */
+.navbar .logo{
+  font-size: 18px;
+  line-height: 18px;
+  text-transform: uppercase;
+  letter-spacing: 0.3rem;
+  padding: 1rem 0;
+}
+.navbar .menu{
+  text-align: right;
+  padding: 1rem 0;
+  text-transform: uppercase;
+}
+.navbar .menu ul{
+  display: inline-block;
+}
+.navbar .menu ul li{
+  display: inline-block;
+  list-style: none;
+}
+.navbar .menu a{
+  font-size: 12px;
+  color: black;
+  line-height: 18px;
+  padding-left: 1.5rem;
+}
+.navbar .menu .lang{
+  padding-left: 1rem;
+}
+.navbar .menu .lang:after{
+  padding-left: 1rem;
+  content:"|";
+}

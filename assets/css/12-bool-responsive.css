@@ -23,9 +23,12 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+.container-small {
+  max-width: 70%;
+  margin: 0 auto;
+}
 .container {
-  max-width: 1170px;
+  max-width: 88%;
   margin: 0 auto;
 }
 .container-fluid {
