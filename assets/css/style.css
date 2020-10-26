@@ -154,7 +154,7 @@ main{
   position: relative;
 }
 #howitworks .container-fluid img{
-  height: 500px;
+  height: 70vh;
   position: absolute;
   top: 100%;
   left: 50%;
@@ -174,4 +174,57 @@ main{
   text-align: left;
   font-weight: 500;
   margin-top: calc(25vh - 40px);
+}
+/* /Howitworks */
+/* Moreinfo */
+#moreinfo{
+  width: 100%;
+}
+#moreinfo .monopattino{
+  height: 500px;
+  background-image: url("../img/monopattino2.jpg");
+  background-size: cover;
+  background-position: bottom;
+  margin: 20px 0;
+  box-shadow: 2px 2px 5px #888;
+}
+#moreinfo .appmobile{
+  text-align: left;
+}
+#moreinfo .panorama{
+  text-align: right;
+}
+#moreinfo .img{
+  display: inline-block;
+  height: 500px;
+  width: 98%;
+  background-size: cover;
+  background-position: bottom;
+  box-shadow: 2px 2px 5px #888;
+  margin-bottom: 20px;
+}
+#moreinfo .appmobile .img{
+  background-image: url("../img/app.jpg");
+}
+#moreinfo .panorama .img{
+  background-image: url("../img/panorama.jpg");
+}
+#moreinfo .row{
+  height: 100%;
+}
+#moreinfo .row .smart h2{
+  font-size: 40px;
+  color: white;
+  font-weight: 500;
+}
+#helbizfamily .family{
+  width: 100%;
+  height: 500px;
+  background-image: url(../img/helbizfam.png);
+  background-size: cover;
+}
+footer{
+  width: 100%;
+  height: 500px;
+  background-color: black;
 }
