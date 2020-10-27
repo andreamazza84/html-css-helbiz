@@ -1,0 +1,19 @@
+@media screen and (max-width: 768px){
+/* utility */
+.sm-display-none{
+  display: none;
+}
+/* NAVBAR */
+.navbar .menu .list{
+ display: none;
+}
+.navbar .menu .fa-bars{
+  display: inline-block;
+  font-size: 20px;
+}
+
+
+
+
+
+}
